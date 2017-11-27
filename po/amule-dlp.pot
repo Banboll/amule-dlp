@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the aMule package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://forum.amule.org/index.php?board=40.0\n"
-"POT-Creation-Date: 2017-11-23 11:51+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-26 16:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgid "Password set and external connections enabled."
 msgstr ""
 
 #: src/amule.cpp:468 src/KadDlg.cpp:183 src/KadDlg.cpp:189
-#: src/PrefsUnifiedDlg.cpp:760 src/SharedFilesCtrl.cpp:318
+#: src/PrefsUnifiedDlg.cpp:763 src/SharedFilesCtrl.cpp:318
 msgid "WARNING"
 msgstr ""
 
@@ -444,11 +444,6 @@ msgstr ""
 msgid "http://kademlia.scs.cs.nyu.edu\n"
 msgstr ""
 
-<<<<<<< HEAD:po/amule.pot
-#: src/amuleDlg.cpp:513 src/KadDlg.cpp:193 src/PartFile.cpp:918
-#: src/PartFile.cpp:926 src/PrefsUnifiedDlg.cpp:632 src/PrefsUnifiedDlg.cpp:737
-#: src/PrefsUnifiedDlg.cpp:857
-=======
 #: src/amuleDlg.cpp:512
 msgid ""
 "\n"
@@ -476,10 +471,9 @@ msgid " Copyright (C) 2014 Persmule \n"
 msgstr ""
 
 #: src/amuleDlg.cpp:520 src/KadDlg.cpp:193 src/PartFile.cpp:918
-#: src/PartFile.cpp:926 src/PrefsUnifiedDlg.cpp:642 src/PrefsUnifiedDlg.cpp:747
-#: src/PrefsUnifiedDlg.cpp:860 src/PrefsUnifiedDlg.cpp:1097
-#: src/PrefsUnifiedDlg.cpp:1099
->>>>>>> rename amule.pot -> amule-dlp.pot:po/amule-dlp.pot
+#: src/PartFile.cpp:926 src/PrefsUnifiedDlg.cpp:645 src/PrefsUnifiedDlg.cpp:750
+#: src/PrefsUnifiedDlg.cpp:870 src/PrefsUnifiedDlg.cpp:1108
+#: src/PrefsUnifiedDlg.cpp:1110
 msgid "Message"
 msgstr ""
 
@@ -518,13 +512,8 @@ msgstr ""
 #: src/amuleDlg.cpp:797 src/DownloadListCtrl.cpp:415
 #: src/DownloadListCtrl.cpp:652 src/FriendListCtrl.cpp:174
 #: src/muuli_wdr.cpp:803 src/muuli_wdr.cpp:863 src/muuli_wdr.cpp:937
-<<<<<<< HEAD:po/amule.pot
-#: src/muuli_wdr.cpp:1003 src/muuli_wdr.cpp:2329 src/muuli_wdr.cpp:2431
-#: src/muuli_wdr.cpp:3147 src/ServerListCtrl.cpp:154 src/ServerListCtrl.cpp:528
-=======
 #: src/muuli_wdr.cpp:1003 src/muuli_wdr.cpp:2374 src/muuli_wdr.cpp:2476
 #: src/muuli_wdr.cpp:3232 src/ServerListCtrl.cpp:154 src/ServerListCtrl.cpp:528
->>>>>>> rename amule.pot -> amule-dlp.pot:po/amule-dlp.pot
 #: src/ServerListCtrl.cpp:547 src/TransferWnd.cpp:375
 #: src/utils/wxCas/src/wxcasprefs.cpp:285
 msgid "Cancel"
@@ -918,7 +907,6 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-<<<<<<< HEAD:po/amule.pot
 #: src/ChatWnd.cpp:101 src/MuleNotebook.cpp:188
 msgid "Close tab"
 msgstr ""
@@ -928,17 +916,6 @@ msgid "Close all tabs"
 msgstr ""
 
 #: src/ChatWnd.cpp:103 src/MuleNotebook.cpp:190
-=======
-#: src/ChatWnd.cpp:101 src/MuleNotebook.cpp:169
-msgid "Close tab"
-msgstr ""
-
-#: src/ChatWnd.cpp:102 src/MuleNotebook.cpp:170
-msgid "Close all tabs"
-msgstr ""
-
-#: src/ChatWnd.cpp:103 src/MuleNotebook.cpp:171
->>>>>>> rename amule.pot -> amule-dlp.pot:po/amule-dlp.pot
 msgid "Close other tabs"
 msgstr ""
 
@@ -2235,11 +2212,6 @@ msgstr ""
 msgid "Kademlia: search keyword too short"
 msgstr ""
 
-#: src/kademlia/kademlia/SearchManager.cpp:130
-#, c-format
-msgid "Keyword for search: %s"
-msgstr ""
-
 #: src/kademlia/kademlia/SearchManager.cpp:138
 msgid "Kademlia: Search keyword is already on search list: "
 msgstr ""
@@ -2412,13 +2384,8 @@ msgstr ""
 msgid "WARNING: "
 msgstr ""
 
-<<<<<<< HEAD:po/amule.pot
 #: src/MuleNotebook.cpp:187 src/muuli_wdr.cpp:901 src/muuli_wdr.cpp:1430
-#: src/muuli_wdr.cpp:3235 src/muuli_wdr.cpp:3505
-=======
-#: src/MuleNotebook.cpp:168 src/muuli_wdr.cpp:901 src/muuli_wdr.cpp:1430
 #: src/muuli_wdr.cpp:3320 src/muuli_wdr.cpp:3590
->>>>>>> rename amule.pot -> amule-dlp.pot:po/amule-dlp.pot
 msgid "Close"
 msgstr ""
 
@@ -4905,217 +4872,217 @@ msgstr ""
 msgid "The type of proxy you are connecting to"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:548
+#: src/PrefsUnifiedDlg.cpp:551
 #, c-format
 msgid "Failed to transfer data from Widget to Cfg with the ID %d and key %s"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:603
+#: src/PrefsUnifiedDlg.cpp:606
 msgid ""
 "aMule must be restarted to enable these changes:\n"
 "\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:610
+#: src/PrefsUnifiedDlg.cpp:613
 msgid "- TCP port changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:615
+#: src/PrefsUnifiedDlg.cpp:618
 msgid "- UDP port changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:620
+#: src/PrefsUnifiedDlg.cpp:623
 msgid "- External connect port changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:624
+#: src/PrefsUnifiedDlg.cpp:627
 msgid "- External connect acceptance changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:628
+#: src/PrefsUnifiedDlg.cpp:631
 msgid "- External connect interface changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:632
+#: src/PrefsUnifiedDlg.cpp:635
 msgid "- Protocol obfuscation support changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:641
+#: src/PrefsUnifiedDlg.cpp:644
 msgid ""
 "Your Auto-update server list is empty.\n"
 "'Auto-update server list at startup' will be disabled."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:648
+#: src/PrefsUnifiedDlg.cpp:651
 msgid ""
 "You have enabled external connections but have not specified a password.\n"
 "External connections cannot be enabled unless a valid password is specified."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:660
+#: src/PrefsUnifiedDlg.cpp:663
 msgid "- Language changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:665
+#: src/PrefsUnifiedDlg.cpp:668
 msgid "- Temp folder changed.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:670
+#: src/PrefsUnifiedDlg.cpp:673
 msgid "- ED2K network enabled.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:742
+#: src/PrefsUnifiedDlg.cpp:745
 msgid ""
 "Both eD2k and Kad network are disabled.\n"
 "You won't be able to connect until you enable at least one of them."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:746
+#: src/PrefsUnifiedDlg.cpp:749
 msgid ""
 "Kad will not start if your UDP port is disabled.\n"
 "Enable UDP port or disable Kad."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:759
+#: src/PrefsUnifiedDlg.cpp:762
 msgid ""
 "\n"
 "You MUST restart aMule now.\n"
 "If you do not restart now, don't complain if anything bad happens.\n"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:859
+#: src/PrefsUnifiedDlg.cpp:869
 msgid ""
 "Your Auto-update servers list is in blank.\n"
 "Please fill in at least one URL to point to a valid server.met file.\n"
 "Click on the button \"List\" by this checkbox to enter an URL."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:998
+#: src/PrefsUnifiedDlg.cpp:1009
 msgid "Temporary files"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1003
+#: src/PrefsUnifiedDlg.cpp:1014
 msgid "Incoming files"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1008
+#: src/PrefsUnifiedDlg.cpp:1019
 msgid "Online Signatures"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1021
+#: src/PrefsUnifiedDlg.cpp:1032
 #, c-format
 msgid "Choose a folder for %s"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1041
+#: src/PrefsUnifiedDlg.cpp:1052
 msgid "Browse for videoplayer"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1045
+#: src/PrefsUnifiedDlg.cpp:1056
 msgid "Select browser"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1051
+#: src/PrefsUnifiedDlg.cpp:1062
 #, c-format
 msgid "Executable%s"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1072
+#: src/PrefsUnifiedDlg.cpp:1083
 msgid "Edit server list"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1073
+#: src/PrefsUnifiedDlg.cpp:1084
 msgid ""
 "Add here URL's to download server.met files.\n"
 "Only one url on each line."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1097
+#: src/PrefsUnifiedDlg.cpp:1108
 msgid "Cannot load antiLeech!"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1099
+#: src/PrefsUnifiedDlg.cpp:1110
 msgid "Succeed loading antiLeech!"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1101
+#: src/PrefsUnifiedDlg.cpp:1112
 msgid "Reload antiLeech from remote GUI has not been implemented."
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1102
+#: src/PrefsUnifiedDlg.cpp:1113
 msgid "Sorry, it has not been implemented yet!"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1147 src/PrefsUnifiedDlg.cpp:1166
+#: src/PrefsUnifiedDlg.cpp:1158 src/PrefsUnifiedDlg.cpp:1177
 #, c-format
 msgid "Update delay: %d second"
 msgid_plural "Update delay: %d seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/PrefsUnifiedDlg.cpp:1154
+#: src/PrefsUnifiedDlg.cpp:1165
 #, c-format
 msgid "Time for average graph: %d minute"
 msgid_plural "Time for average graph: %d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/PrefsUnifiedDlg.cpp:1160
+#: src/PrefsUnifiedDlg.cpp:1171
 #, c-format
 msgid "Connections Graph Scale: %d"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1172
+#: src/PrefsUnifiedDlg.cpp:1183
 #, c-format
 msgid "File Buffer Size: %d byte"
 msgid_plural "File Buffer Size: %d bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/PrefsUnifiedDlg.cpp:1178
+#: src/PrefsUnifiedDlg.cpp:1189
 #, c-format
 msgid "Upload Queue Size: %d client"
 msgid_plural "Upload Queue Size: %d clients"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/PrefsUnifiedDlg.cpp:1185
+#: src/PrefsUnifiedDlg.cpp:1196
 #, c-format
 msgid "Server connection refresh interval: %d minute"
 msgid_plural "Server connection refresh interval: %d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/PrefsUnifiedDlg.cpp:1187
+#: src/PrefsUnifiedDlg.cpp:1198
 msgid "Server connection refresh interval: Disabled"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1232
+#: src/PrefsUnifiedDlg.cpp:1243
 msgid "disabled"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1255
+#: src/PrefsUnifiedDlg.cpp:1266
 #, c-format
 msgid "Execute command on '%s' event"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1258
+#: src/PrefsUnifiedDlg.cpp:1269
 msgid "Enable command execution on core"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1266
+#: src/PrefsUnifiedDlg.cpp:1277
 msgid "Core command:"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1275
+#: src/PrefsUnifiedDlg.cpp:1286
 msgid "Enable command execution on GUI"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1283
+#: src/PrefsUnifiedDlg.cpp:1294
 msgid "GUI command:"
 msgstr ""
 
-#: src/PrefsUnifiedDlg.cpp:1292
+#: src/PrefsUnifiedDlg.cpp:1303
 msgid "The following variables will be replaced:"
 msgstr ""
 
@@ -5131,15 +5098,19 @@ msgstr ""
 msgid "Main"
 msgstr ""
 
-#: src/SearchList.cpp:292
+#: src/SearchList.cpp:311
 msgid "Kad search can't be done if Kad is not running"
 msgstr ""
 
-#: src/SearchList.cpp:294
+#: src/SearchList.cpp:313
 msgid "eD2k search can't be done if eD2k is not connected"
 msgstr ""
 
-#: src/SearchList.cpp:343
+#: src/SearchList.cpp:334
+msgid "No keyword for Kad search - aborting"
+msgstr ""
+
+#: src/SearchList.cpp:371
 msgid "Unexpected error while attempting Kad search: "
 msgstr ""
 
@@ -5430,11 +5401,7 @@ msgid "Servers (%i)"
 msgstr ""
 
 #: src/ServerListCtrl.cpp:397 src/ServerSocket.cpp:271 src/ServerSocket.cpp:286
-<<<<<<< HEAD:po/amule.pot
-#: src/ServerWnd.cpp:179
-=======
 #: src/ServerWnd.cpp:185
->>>>>>> rename amule.pot -> amule-dlp.pot:po/amule-dlp.pot
 msgid "Server"
 msgstr ""
 
